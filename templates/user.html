@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User Options</title>
+    <link href="{{ url_for('static', filename='user.css') }}" rel="stylesheet">
+</head>
+<body>
+<div style="height: 100vh">
+    <div class="welcome">
+    <h3 class="greeting">Welcome {{ username }}!</h3>
+    <button class="card" onclick="location.href='wallet'">Balance: {{ balance }}</button>
+    </div>
+    <div class="center">
+        <button onclick="location.href='recommendations1'">
+            <img src="{{ url_for('static', filename='light1.png') }}"> Recommendation
+        </button>
+        <button onclick="location.href='drinks'">
+            <img src="{{ url_for('static', filename='Drink1.png') }}">Drinks</button>
+    </div>
+    </div>
+</body>
+</html>

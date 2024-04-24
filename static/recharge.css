@@ -1,0 +1,31 @@
+.counter{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: xx-large;
+}
+.cancel-button{
+            margin-left: auto;
+    margin-right: auto;
+            font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    border: none;
+    width: 250px;
+    height: 80px;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #818181; /*blue*/
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    color: white;
+    #text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 50px;
+}

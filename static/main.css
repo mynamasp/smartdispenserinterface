@@ -39,3 +39,8 @@ button {
     font-size: xx-large;
 
 }
+button:active {
+  background-color: #0783fa; /* Original button color */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3); /* Semi-transparent black overlay */
+}
+

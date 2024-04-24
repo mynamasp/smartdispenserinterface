@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Dispenser</title>
+     <link rel="stylesheet" href="/static/wallet.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="balance">
+    <h1 style="font-weight: lighter">BALANCE: </h1>
+    <h1>&#8377;{{ balance }}</h1>
+</div>
+<div>
+    <div style="font-size: xx-large;margin-left: 20px;">
+        Add Funds
+    </div>
+    <div class="recharge-buttons">
+        <button  onclick="location.href='recharge/10'">+10</button>
+        <button onclick="location.href='recharge/20'">+20</button>
+        <button onclick="location.href='recharge/50'">+50</button>
+        <button onclick="location.href='recharge/100'">+100</button>
+    </div>
+</div>
+
+<div class="home-button">
+    <button>Home</button>
+</div>
+
+
+
+</body>
+</html>
